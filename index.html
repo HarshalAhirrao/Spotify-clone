@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Spotify - Web Player: Music for</title>
+        <link rel="stylesheet" href="style.css" />
+          <link rel="icon" href="image/favicon.ico" type="image/x-icon">
+        <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8/hammer.min.js"></script>
+    </head>
+    <body>
+        <div class="body">
+            <nav>
+                <div class="logo flex justify align"><img src="image/logo.svg" alt="logo" /></div>
+                <div class="nav-left">
+                    <button class="home flex justify align"><img src="image/home.svg" alt="Home" /></button>
+                    <div class="search flex align">
+                        <button class="flex justify align">
+                            <img src="image/search.svg" alt="search" />
+                        </button>
+                        <input type="text" spellcheck="false" autocorrect="off" autocomplete="off" class="searchip" placeholder="What do you want to play? " />
+                        <button class="browse"><img src="image/browse.svg" alt="" /></button>
+                    </div>
+                    <span>Premium</span>
+                    <span>Support</span>
+                    <span>Download</span>
+                </div>
+                <div class="nav-right">
+                    <span class="download"> <img src="image/download.svg" alt="" /> Install App</span>
+                    <span class="sign-up"> Sign up</span>
+                    <span class="login"> Log in </span>
+                </div>
+                <div class="hamburger"><img src="image/hamburger.svg" alt=""></div>
+            </nav>
+            <main>
+                <div class="left border">
+            <div class="up">
+                    <div class="library">
+                        Your Library
+                        <button class="add"><img src="image/add.svg" alt="add" /></button>
+                    </div>
+                    <div class="song-list">
+                       <ul>
+                       </ul>
+                    </div>
+                    </div>
+                    <div class="left-side">
+                        
+
+                            <div class="legal white">
+                        <div class="lower">
+                            <span>Legal</span>
+                            <span>Safety&Privacy Center</span>
+                            <span>Privacy Policy</span>
+                            <span>Cookies</span>
+                            <span>About Ads</span>
+                            <span> Accessibility </span>
+                        </div>
+                        
+                            <span>Cookies</span>
+                       
+                        <button class="language"> <img src="image/language.svg" alt="">English</button>
+                    </div>
+
+                    
+                    </div>
+                    
+                  
+                
+                </div>
+                <div class="right border">
+                    <div class="trending">
+                        <span>Playlist</span>
+                        <span>Show all</span>
+                    </div>
+                    <div class="songs">
+                       
+                        <!-- <div data-folder="Moody" class="card">
+                           <img src="image/https://scontent.fpnq7-3.fna.fbcdn.net/v/t1.6435-9/75439558_102715087832714_4762652246276046848_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=FtWJoQCJts4Q7kNvgEJrcB6&_nc_oc=AdmQAPXZC-fTL67oEwxAWwQEpdLQTNhQGL2vrOSoMSVjZJ0B5Eqnli7z4AR5RumdfESnl84ScMXgGWCC571f1qjH&_nc_zt=23&_nc_ht=scontent.fpnq7-3.fna&_nc_gid=p5vakeZGkiWvxXaIcHEnYQ&oh=00_AYHxY4k0drhSwCX4t0NvQ1DDxmaSeviJiQy9Cd_v6KS-3A&oe=680DCE5B" alt="">
+                           <h2>Moody</h2>
+                           <p>Alphaville</p>
+                            </div>
+                        <div data-folder="romantic" class="card ">
+                           <img src="image/https://i.ytimg.com/vi/-2RAq5o5pwc/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCCU3dgmC47DO6onuyBAEAdIaYtXA" alt="">
+                           <h2>Romantic</h2>
+                           <p>Coke Studio</p>
+                            </div> -->
+                      
+                      
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <footer class="footer">
+            <div class="content">
+                <span class="title">Preview of Spotify</span>
+                <span class="description"> Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed. </span>
+            </div>
+            <button class="signup-button">Sign up free</button>
+        </footer>
+        <div class="play">
+            <div class="info">
+                <!-- <img src="image/https://i0.wp.com/aonetwothreefour.co/wp-content/uploads/2023/04/DAVID-KUSHNER.jpg?fit=1000%2C1000&ssl=1" alt="">
+                <div class="details">
+                    <h2>Daylight</h2>
+                    <p>DAVID-KUSHNER</p> -->
+                </div>
+          
+            <div class="controls">
+                <div class="control">
+                    <span class="shuffle"> <img src="image/shuffle.svg" alt=""></span>
+                    <span class="previous"> <img src="image/previous.svg" alt=""></span>
+                    <div class="play-btn "> <img src="image/pause.svg" alt=""></div>
+                    <span class="next"> <img src="image/next.svg" alt=""></span>
+                    <span class="repeat"> <img src="image/repeat.svg" alt=""></span>
+                </div>
+                <div class="duration">
+                    <span class="current-time">0:00</span>
+        <input type="range" class="progress-bar" min="0" max="100" value="0">
+        <span class="total-time">3:45</span>
+                </div>
+            </div>
+            <div class="sound">
+                <img class="volume" src="image/volume.svg" alt="">
+                <input type="range" class="progress-bar sound-bar" min="0" max="100" value="0">
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
